@@ -1,0 +1,131 @@
+   @media screen and (max-width:768px) {
+   Body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto 0;
+    font-size: 25px;
+    width: 100%; 
+    }
+    #picture{
+        width: 0px;
+    }
+   header{
+    background-color: #f2f2f2;
+    font-size: 20px;
+   }
+   #learn-more{
+       color: #f2f2f2;
+       background-color: #20a8b4;
+       border-radius: 10px;
+       padding: 12px;
+       display: flex;
+       position: relative; top: 120px;
+   }
+   #learn-more:hover{
+       background-color: #ff5c0f;
+   }
+   #Contact{
+       color: #f2f2f2;
+       background-color: #20a8b4;
+       border-radius: 10px;
+       padding: 12px;
+       display: flex;
+   }
+   #Contact:hover{
+       background-color: #ff5c0f;
+   }
+   .nav-list{
+       list-style-type: none;
+   }
+   a{
+       text-decoration: none;
+       color: #000;
+   }
+   a:hover{
+       color: #ff5c0f;
+   }
+   h1{
+       color: #20a8b4;
+   }
+   .Code{
+       color: #ff5c0f;
+   }
+   .learning-to{
+       color: #ff5c0f;
+   }
+   h2{
+    position: relative; top: 150px;
+   }
+   .p1{
+       position: relative; top: 130px;
+   }
+}
+@media screen and (min-width: 768px){
+    
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: auto 0;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #ff5c0f;
+}
+#Contact{
+    padding: 10px;
+    background-color: #20a8b4;
+    color: #fff;
+    border-radius: 10px;
+}
+#Contact:hover{
+    background-color: #ff5c0f;
+}
+header{
+    background-color: #f2f2f2;
+    font-size: 20px;
+}
+.nav-list{
+    text-align: right;
+    position: relative; bottom: 35px;
+    
+}
+.nav-list li{
+    display: inline;
+    
+}
+h1{
+    color: #20a8b4;
+    position: relative; top: 20px;
+    
+}
+.Code{
+    color: #ff5c0f;
+}
+.learning-to{
+    color: #ff5c0f;    
+}
+h2{
+    position: relative; left: 0px; top: 240px;
+}
+#picture{
+    float: right;
+    position: relative; right: 50px; top: 20px;
+    width: 500px;
+}
+.p1{
+    position: relative; left: 0px; top: 240px;
+}
+#learn-more{
+    padding: 12px;
+    color: #f2f2f2;
+    background-color: #20a8b4;
+    position: relative; top: 240px;
+    border-radius: 10px;
+}
+#learn-more:hover{
+    background-color: #ff5c0f;
+}
+}
+
